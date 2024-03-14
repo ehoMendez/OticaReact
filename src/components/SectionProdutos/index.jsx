@@ -40,11 +40,18 @@ export default function SectionProdutos(){
             </div>
             </div>
 
-            <div className={style.garantiasContainerProdutos}>
-
-            </div>
+           
 
         </div>
+        <div className={style.garantiasContainerProdutos}>
+                <h3>Todos os nossos produtos incluem:</h3>
+                <ul >
+                    <li>Garantia de 1 ano</li>
+                    <li>Manutenção preventiva</li>
+                    <li>Descontos especiais na compra da segunda unidade</li>
+                    <li>Flexibilidade de pagamento</li>
+                </ul>
+            </div>
 
     </section>
     )

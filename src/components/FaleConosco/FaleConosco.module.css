@@ -1,0 +1,57 @@
+.FaleConoscoContainer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(7, 7, 45);
+    color: white;
+}
+
+.titleFaleConosco{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+   margin: 0 auto;
+   align-items: center;
+   padding: 20px 0px;
+   gap: 20px;
+}
+
+.titleFaleConosco h3{
+   font-size: 30px;
+
+}
+
+.redesSociais{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.contato h4{
+    font-size: 15px;
+}
+.contato p{
+    font-size: 10px;
+}
+
+.text_icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.imgIcon{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}

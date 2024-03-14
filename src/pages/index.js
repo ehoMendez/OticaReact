@@ -3,7 +3,10 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Header from '../components/Header';
 import SectionCapa from '../components/SectionCapa';
-
+import SectionProdutos from '../components/SectionProdutos';
+import QuemSomos from '../components/QuemSomos'
+import FaleConosco from '../components/FaleConosco'
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -18,6 +21,9 @@ export default function Home() {
      <Header/>
      <SectionCapa/>
      <SectionProdutos/>
+     <QuemSomos/>
+     <FaleConosco/>
+     <Footer/>
     </>
   );
 }

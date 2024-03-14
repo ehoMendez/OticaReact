@@ -1,0 +1,117 @@
+.containerQuemSomos{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.limitContainerQuemSomos{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    text-align: center;
+}
+.textosContainerQuemSomos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0px;
+}
+.textosContainerQuemSomos h3{
+    font-size: 30px;
+    color: rgb(28, 27, 27);
+}
+.textosContainerQuemSomos p{
+    font-size: 16px;
+}
+
+.containerImgTxt{
+    display: flex;
+    align-items: center;
+    max-width: 1024px;
+   width: 1024px;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   border: 1px solid rgba(0, 0, 0, 0.227);
+}
+
+@media(max-width:1024px){
+    .containerImgTxt{
+      flex-direction: column;
+      justify-content: center;
+      width: 600px;
+    }  
+    
+    .QuemSomosImg2, .QuemSomosImg1{ 
+        background-image: url('../../../public/atendimento.png');
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        background-position: center;
+       
+    }
+    
+     
+}
+@media(max-width:600px){
+    .containerImgTxt{
+      flex-direction: column;
+      justify-content: center;
+      width: 300px;
+    }  
+    
+    .txtLegendaFoto h3{
+        
+       font-size: 20px;
+    }
+    .txtLegendaFoto p{
+       font-size: 12px;
+    
+    }
+    
+    
+}
+
+
+.QuemSomosImg1{ 
+    background-image: url('../../../public/loja.png');
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    background-position: center;
+   
+}
+.QuemSomosImg2{ 
+    background-image: url('../../../public/atendimento.png');
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    background-position: center;
+   
+}
+
+
+
+.txtLegendaFoto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.txtLegendaFoto h3{
+    padding: 20px;
+    text-align: center;
+   font-size: 40px;
+}
+.txtLegendaFoto p{
+   font-size: 25px;
+   padding: 30px;
+}
+
+
+
+
+
