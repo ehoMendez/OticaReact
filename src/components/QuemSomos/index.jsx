@@ -7,7 +7,7 @@ import Foto2 from '../../../public/atendimento.png';
 export default function QuemSomos(){
     return(
 
-        <section className={style.containerQuemSomos}>
+        <section id='sobre' className={style.containerQuemSomos}>
 
         <div className={style.limitContainerQuemSomos}>
 

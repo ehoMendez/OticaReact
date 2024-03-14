@@ -9,9 +9,9 @@ export default function Header(){
                 <Image className={style.imgLogoHeader}  src={Logo} alt='Logo Site'/>
                 </div>
                 <div className={style.links}>
-                        <div><a href="#">PRODUTOS</a></div>
-                        <div><a href="#">SOBRE</a></div>
-                        <div><a href="#">CONTATO</a></div>
+                        <div><a href="#produtos">PRODUTOS</a></div>
+                        <div><a href="#sobre">SOBRE</a></div>
+                        <div><a href="#contato">CONTATO</a></div>
                 </div>
             </div>
         </header>

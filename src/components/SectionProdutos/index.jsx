@@ -7,7 +7,7 @@ import Google4 from '../../../public/oculos04.png';
 
 export default function SectionProdutos(){
     return(
-    <section className={style.containerProdutos}>
+    <section id='produtos' className={style.containerProdutos}>
 
         <div className={style.limitContainerProdutos}>
 
